@@ -75,7 +75,7 @@ export const serviceUtils = {
         const isWildcardEnabled = allowedApiKeys.length === 1 && allowedApiKeys[0] === '*';
         const isAPIKeyEnabled = isWildcardEnabled || (apiKey && allowedApiKeys.includes(apiKey));
         if (!isAPIKeyEnabled && !currentExcludedSources.includes(ERC20BridgeSource.LiquidityProvider)) {
-            return currentExcludedSources; //.concat(ERC20BridgeSource.LiquidityProvider);
+            return currentExcludedSources.concat(ERC20BridgeSource.LiquidityProvider);
         }
         return currentExcludedSources;
     },
