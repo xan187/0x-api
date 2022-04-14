@@ -174,7 +174,7 @@
         "redis": "^2.8.0",
         "retry-axios": "^2.1.2",
         "sqs-producer": "^2.1.0",
-        "typeorm": "0.2.29",
+        "typeorm": "0.3.3",
         "uuid": "^7.0.3",
         "uuid-validate": "^0.0.3",
         "ws": "^7.4.6",
