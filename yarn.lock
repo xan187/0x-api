@@ -2714,7 +2714,22 @@ available-typed-arrays@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz#92f95616501069d07d10edb2fc37d3e1c65123b7"
 
-aws-sdk@^2.673.0, aws-sdk@^2.908.0:
+aws-sdk@^2.1099.0:
+  version "2.1114.0"
+  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1114.0.tgz#9f523e48ee3a28f31c05ea273611d406433589c0"
+  integrity sha512-LB3q0aHK37GccvNZ4HKtA+0YF94GWYDbJMz3XYoNSEVFOFnLj2DfpkoWlBSnBEJlG9m8GRNssDWs65gQ3MVzDQ==
+  dependencies:
+    buffer "4.9.2"
+    events "1.1.1"
+    ieee754 "1.1.13"
+    jmespath "0.16.0"
+    querystring "0.2.0"
+    sax "1.2.1"
+    url "0.10.3"
+    uuid "3.3.2"
+    xml2js "0.4.19"
+
+aws-sdk@^2.673.0:
   version "2.1054.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1054.0.tgz#70196fcc90b066d892e6f848046542dd1f23a4ca"
   dependencies:
@@ -7152,6 +7167,11 @@ isurl@^1.0.0-alpha5:
 jmespath@0.15.0, jmespath@^0.15.0:
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.15.0.tgz#a3f222a9aae9f966f5d27c796510e28091764217"
+
+jmespath@0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/jmespath/-/jmespath-0.16.0.tgz#b15b0a85dfd4d930d43e69ed605943c802785076"
+  integrity sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw==
 
 joycon@^2.2.5:
   version "2.2.5"
