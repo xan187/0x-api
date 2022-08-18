@@ -92,7 +92,7 @@
         "@0x/subproviders": "^6.6.5",
         "@0x/token-metadata": "^0.1.17",
         "@0x/types": "^3.3.6",
-        "@0x/utils": "^6.5.3",
+        "@0x/utils": "^7.0.0",
         "@0x/web3-wrapper": "^7.6.5",
         "@ethersproject/hdnode": "^5.2.0",
         "aws-sdk": "^2.908.0",
